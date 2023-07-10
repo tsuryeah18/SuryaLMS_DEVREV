@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/f5b7ca4ac9.js" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;400;900&family=Ysabeau+SC&display=swap" rel="stylesheet">    <link rel="stylesheet" href="css/index.css">
+     
+    
+    
+</head>
+<body>
+    
+
+    
+
+  
+    <h1>WELCOME TO BOOKSVERSE</h1>
+    <a href="login.html">Sign In</a>
+        
+
+    <div class="container">
+
+        
+        <div class="search-bar">
+          
+            <div class="search-container">
+              <input type="text" id="searchInput" placeholder="Search books..." autocomplete="off">
+              <i class="fas fa-search search-icon"></i>
+            </div>
+            <div class="suggestions" id="suggestions"></div>
+          </div>
+        
+          <div class="pagination">
+            <button id="prevButton" disabled=""><i class="fa-solid fa-backward fa-beat"></i> Previous</button>
+            <button id="nextButton" disabled="">Next <i class="fa-solid fa-forward fa-beat"></i></button>
+          </div>
+        
+          <ul class="results" id="results"></ul>
+          
+          <script src="../jquery-3.6.0.min.js"></script>
+  <script src="index.js"></script>
+  <div id="cart-icon">
+    <img src="../images?q=tbn:ANd9GcTWX3MGbr3TnrQNTGCHKkA4VRRNR1hx9OuWgBNe9LLOUBjVuQ_2tKdEdacZWRr8HUQYg7s&usqp=CAU" alt="Cart Icon" id="cart-icon-image">
+    <span id="cart-item-count">0</span>
+  </div>
+  <div id="cart">
+    <h2>Cart</h2>
+  </div>
+  
+</div>
+        
+            
+<div class="container-2" >
+<h1>FICTION</h1>
+<ul id="FICTION" class="results"></ul>
+
+  <h1>SCIENCE</h1>
+  <ul id="SCIENCE"></ul>
+  <h1>MATHS</h1>
+  <ul id="MATHS"></ul>
+  <h1>SOCIAL</h1>
+  <ul id="SOCIAL"></ul>
+  <h1>CRIME</h1>
+  <ul id="CRIME"></ul>
+  </div>
+</div>
+
+</body>
+</html>
